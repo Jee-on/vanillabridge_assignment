@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.css": "/vanillabridge_assignment/static/css/main.cfd88a8c.css",
-    "main.js": "/vanillabridge_assignment/static/js/main.1e19fb28.js",
+    "main.css": "/vanillabridge_assignment/static/css/main.27a4feab.css",
+    "main.js": "/vanillabridge_assignment/static/js/main.ee3932af.js",
     "index.html": "/vanillabridge_assignment/index.html",
-    "main.cfd88a8c.css.map": "/vanillabridge_assignment/static/css/main.cfd88a8c.css.map",
-    "main.1e19fb28.js.map": "/vanillabridge_assignment/static/js/main.1e19fb28.js.map"
+    "main.27a4feab.css.map": "/vanillabridge_assignment/static/css/main.27a4feab.css.map",
+    "main.ee3932af.js.map": "/vanillabridge_assignment/static/js/main.ee3932af.js.map"
   },
   "entrypoints": [
-    "static/css/main.cfd88a8c.css",
-    "static/js/main.1e19fb28.js"
+    "static/css/main.27a4feab.css",
+    "static/js/main.ee3932af.js"
   ]
 }
