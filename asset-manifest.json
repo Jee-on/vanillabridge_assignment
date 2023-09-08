@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/vanillabridge_assignment/static/css/main.cfd88a8c.css",
+    "main.js": "/vanillabridge_assignment/static/js/main.1e19fb28.js",
+    "index.html": "/vanillabridge_assignment/index.html",
+    "main.cfd88a8c.css.map": "/vanillabridge_assignment/static/css/main.cfd88a8c.css.map",
+    "main.1e19fb28.js.map": "/vanillabridge_assignment/static/js/main.1e19fb28.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.cfd88a8c.css",
+    "static/js/main.1e19fb28.js"
+  ]
+}
