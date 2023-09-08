@@ -10,7 +10,7 @@ import InputArea from "./component/inputArea.js";
 /* 
 채팅방 컴포넌트
 */
-const API_URL = "http://test.vanillabridge.com/test_data";
+const API_URL = "https://test.vanillabridge.com/test_data";
 function Chat() {
   const [chatData, setChatData] = useState([]);
   const [photoUrl, setPhotoUrl] = useState("");
@@ -98,11 +98,15 @@ function Chat() {
   };
 
   return (
-    <Box className='chatBox' ref={chatBoxRef}>
-      <Header photoUrl={photoUrl} userName={userName} />
-      {renderChatData()}
-      <InputArea sendMessage={sendMessage} />
-    </Box>
+    <>
+      <Box className='chatBox' ref={chatBoxRef}>
+        <Header photoUrl={photoUrl} userName={userName} />
+
+        {renderChatData()}
+
+        <InputArea sendMessage={sendMessage} />
+      </Box>
+    </>
   );
 }
 

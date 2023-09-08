@@ -34,7 +34,14 @@ function InputArea(props) {
     <Grid
       container
       className='inputArea'
-      sx={{ position: "sticky", bottom: 0, zIndex: 1, top: "auto", justifyContent: "center", alignItems: "center" }}>
+      sx={{
+        position: "sticky",
+        bottom: 0,
+        top: "auto",
+
+        justifyContent: "center",
+        alignItems: "center",
+      }}>
       <Grid item>
         <MdOutlineAddCircleOutline size='35' color='lightgrey' />
       </Grid>
