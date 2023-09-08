@@ -1,0 +1,71 @@
+@import url("https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.8/dist/web/static/pretendard.css");
+
+.chatBox {
+  width: 360px;
+  height: 720px;
+  background-color: #fff9ef;
+  font-family: "Pretendard Variable", Pretendard, -apple-system, BlinkMacSystemFont, system-ui, Roboto, "Helvetica Neue",
+    "Segoe UI", "Apple SD Gothic Neo", "Noto Sans KR", "Malgun Gothic", "Apple Color Emoji", "Segoe UI Emoji",
+    "Segoe UI Symbol", sans-serif;
+
+  overflow: auto;
+}
+
+.chatBox::-webkit-scrollbar {
+  display: none;
+}
+
+.chatHeader {
+  width: 360px !important;
+  height: 50px !important;
+  background-color: #faf0e1;
+}
+
+.inputArea {
+  width: 360px !important;
+  min-height: 50px !important;
+  max-height: 150px !important;
+  background-color: #faf0e1;
+}
+
+.userNameText {
+  font-family: "Pretendard Variable", Pretendard !important;
+  color: rgb(51, 49, 49);
+  font-size: 14px !important;
+  font-weight: 500 !important;
+}
+
+.recvMsgBox {
+  background-color: white;
+  border-radius: 0px 12px 12px 12px;
+  max-width: 230px;
+}
+.recvMsgText {
+  font-family: "Pretendard Variable", Pretendard !important;
+  color: rgb(51, 49, 49);
+  font-size: 14px !important;
+}
+.sendMsgBox {
+  background-color: #03006e;
+  border-radius: 12px 12px 12px 12px;
+  max-width: 230px;
+}
+.sendMsgText {
+  font-family: "Pretendard Variable", Pretendard !important;
+  color: white;
+  font-size: 14px !important;
+}
+
+.createAtText {
+  font-family: "Pretendard Variable", Pretendard !important;
+  color: grey;
+  font-size: 11px !important;
+  min-width: 50px;
+}
+
+.headerUserNameText {
+  font-family: "Pretendard Variable", Pretendard !important;
+  color: rgb(51, 49, 49);
+  font-size: 15px !important;
+  font-weight: 600 !important;
+}
